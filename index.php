@@ -312,57 +312,24 @@ var_dump ($phone);
 //18/11/24
 //function
 function greetMe () {
-    echo "<br> Good Afternoon!";
-    
+    echo "<br> Good Afternoon!";   
 }
-
 greetMe();
 
+echo "<br>";
 
+function streetName ($sname){
+    echo "$sname Asaba. <br>";
+}
+streetName ("DLA");
+streetName ("EZENEI");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+echo "<br>";
+function homeAddress ($snumber, $sname){
+    echo "$snumber $sname Asaba. <br>";
+}
+homeAddress ("5th", "DLA");
+homeAddress ("8th", "EZENEI");
 
 
 
