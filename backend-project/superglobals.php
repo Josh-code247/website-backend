@@ -10,9 +10,9 @@ myfunction();
 echo "<br>";
 echo "<br>";
 
-function myfunctions() {
-    echo $y;
-}
+// function myfunctions() {
+    // echo $y;
+// }
 myfunction();
 
 
